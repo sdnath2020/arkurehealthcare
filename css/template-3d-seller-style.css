@@ -29,7 +29,7 @@
   color: black !important;
   display: table-cell !important;
   font-size: 24px !important;
-  font-weight: 800 !important;
+  font-weight: 900 !important;
   font-family: "Open Sans", sans-serif !important;
   line-height: 1.5 !important;
   text-align: left !important;
@@ -176,7 +176,7 @@
 
 #dev2020_custom_template___product_suggestion_wrapper > .tds-products > .tds-col-24 > .tds-products-wrapper > .tds-product-wrapper > a > .tds-products-expand > .tds-products-plus > .tds-products-price {
   background-color: transparent !important;
-  color: #689A53 !important;
+  color: #F08626 !important;
   display: block !important;
   font-size: 18px !important;
   font-weight: 800 !important;
