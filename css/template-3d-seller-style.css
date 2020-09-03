@@ -92,6 +92,10 @@
   padding: 5px !important;
 }
 
+#dev2020_custom_template___product_suggestion_wrapper > * {
+  display: none !important;
+}
+
 #dev2020_custom_template___product_suggestion_wrapper > .tds-products {
   display: flex !important;
 }
