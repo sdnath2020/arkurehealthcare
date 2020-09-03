@@ -33,14 +33,12 @@ img {
   font-family: "Open Sans", sans-serif;
 }
 
-#dev2020_custom_template *:not('#dev2020_custom_template___product_gallery_wrapper') {
+#dev2020_custom_template * {
   color: #616161;
   box-sizing: border-box;
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  margin: 0;
-  padding: 0;
 }
 
 #dev2020_custom_template .dev2020_custom_template__container {
@@ -96,6 +94,7 @@ img {
 #dev2020_custom_template .dev2020_custom_template__header-right ul {
   display: table;
   margin: 0 auto;
+  padding: 0;
 }
 
 #dev2020_custom_template .dev2020_custom_template__header-right ul li {
@@ -569,6 +568,8 @@ img {
 
 #dev2020_custom_template .dev2020_custom_template__footer-links ul {
   display: table;
+  margin: 0;
+  padding: 0;
 }
 
 #dev2020_custom_template .dev2020_custom_template__footer-links ul li {
