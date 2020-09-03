@@ -33,7 +33,7 @@ img {
   font-family: "Open Sans", sans-serif;
 }
 
-#dev2020_custom_template * {
+#dev2020_custom_template *:not('#dev2020_custom_template___product_gallery_wrapper') {
   color: #616161;
   box-sizing: border-box;
   -webkit-user-select: none;
@@ -266,6 +266,7 @@ img {
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
+  white-space: nowrap;
   writing-mode: vertical-rl;
 }
 
@@ -394,6 +395,7 @@ img {
   font-size: 18px;
   font-weight: 800;
   line-height: 20px;
+  min-height: 40px;
   margin: 0 0 20px;
   padding: 0 0 0 60px;
   text-transform: uppercase;
