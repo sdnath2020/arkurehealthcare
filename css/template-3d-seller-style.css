@@ -4,6 +4,11 @@
 ** 3dseller style
 */
 
+#dev2020_custom_template .tds-container-fluid {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 /* Title Style Start */
 
 #dev2020_custom_template___product_title_wrapper > .tds-product-title {
