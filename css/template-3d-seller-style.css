@@ -160,7 +160,7 @@
 #dev2020_custom_template___product_suggestion_wrapper > .tds-products > .tds-col-24 > .tds-products-wrapper > .tds-product-wrapper > a > .tds-products-cover {
   background-position: center !important;
   background-repeat: no-repeat !important;
-  background-size: cover !important;
+  background-size: contain !important;
   display: block !important;
   margin: 0 0 5px 0 !important;
   padding: 100% 0 0 !important;
