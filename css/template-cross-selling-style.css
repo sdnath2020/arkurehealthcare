@@ -71,6 +71,12 @@
   background-color: #9CC948;
 }
 
+@media screen and ( min-width:1200px) {
+  #dev2020_custom_template__cross-selling .dev2020_custom_template__cross-selling-single:nth-child( n + 7 ) {
+    display: none !important;
+  }
+}
+
 @media screen and ( max-width:1199px) {
   #dev2020_custom_template__cross-selling .dev2020_custom_template__cross-selling-single {
     flex: 0 0 25%;

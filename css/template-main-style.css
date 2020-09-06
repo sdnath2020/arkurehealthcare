@@ -459,8 +459,10 @@ img {
 }
 
 #dev2020_custom_template .dev2020_custom_template__template-content {
-  padding: 20px 15px;
   border: 1px solid lightgrey;
+  min-height: 240px;
+  padding: 20px 15px;
+  position: relative;
 }
 
 #dev2020_custom_template .dev2020_custom_template__template-content * {
@@ -494,8 +496,16 @@ img {
   padding-bottom: 5px;
 }
 
+#dev2020_custom_template .dev2020_custom_template__template-content-why-buy {
+  padding-right: 115px;
+}
+
 #dev2020_custom_template .dev2020_custom_template__template-content-icon {
   display: block;
+  width: 100px;
+  position: absolute;
+  right: 15px;
+  top: 20px;
 }
 
 #dev2020_custom_template .dev2020_custom_template__template-content-icon img {
@@ -557,6 +567,16 @@ img {
   }
   #dev2020_custom_template .dev2020_custom_template__body-panel {
     width: 100%;
+  }
+}
+
+@media screen and ( max-width:575px) {
+  #dev2020_custom_template .dev2020_custom_template__template-content-why-buy {
+    padding-right: 0;
+  }
+  #dev2020_custom_template .dev2020_custom_template__template-content-icon {
+    width: 100%;
+    position: static;
   }
 }
 /* 
