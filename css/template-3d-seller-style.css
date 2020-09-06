@@ -30,7 +30,7 @@
   display: table-cell !important;
   font-size: 24px !important;
   font-weight: 900 !important;
-  font-family: "Open Sans", sans-serif !important;
+  font-family: 'Raleway', sans-serif !important;
   line-height: 1.5 !important;
   text-align: left !important;
   text-decoration: none !important;
@@ -82,6 +82,31 @@
 #dev2020_custom_template___product_description_wrapper > .tds-product-description {
   background-color: transparent !important;
   color: #252525 !important;
+  font-family: 'Raleway', sans-serif !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#dev2020_custom_template___product_description_wrapper > .tds-product-description * {
+  color: #252525 !important;
+  font-family: 'Raleway', sans-serif !important;
+  line-height: 1.75 !important;
+}
+
+#dev2020_custom_template___product_description_wrapper > .tds-product-description *:first-child {
+  margin-top: 0 !important;
+}
+
+#dev2020_custom_template___product_description_wrapper > .tds-product-description *:last-child {
+  margin-bottom: 0 !important;
+}
+
+#dev2020_custom_template___product_description_wrapper > .tds-product-description *:not(h1):not(h2):not(h3):not(h4):not(h4):not(h5):not(h6) {
+  font-size: 14px !important;
+}
+
+#dev2020_custom_template___product_description_wrapper > .tds-product-description > .tds-col-24 {
+  background-color: transparent !important;
   margin: 0 !important;
   padding: 0 !important;
 }
@@ -148,7 +173,7 @@
   display: -webkit-box !important;
   font-size: 14px !important;
   font-weight: 600 !important;
-  font-family: "Open Sans", sans-serif !important;
+  font-family: 'Raleway', sans-serif !important;
   height: 40px !important;
   line-height: 20px !important;
   margin: 0 0 10px !important;
@@ -180,7 +205,7 @@
   display: block !important;
   font-size: 18px !important;
   font-weight: 800 !important;
-  font-family: "Open Sans", sans-serif !important;
+  font-family: 'Raleway', sans-serif !important;
   line-height: 20px !important;
   margin: 0 !important;
   padding: 0 !important;

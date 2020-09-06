@@ -35,7 +35,7 @@
 
 #dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content {
   display: none;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.75;
   padding: 20px 15px;
   border: 1px solid lightgrey;
@@ -43,30 +43,13 @@
 
 #dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content * {
   color: #252525;
-  margin: 0;
 }
 
-#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content p:not(:last-child) {
-  margin-bottom: 20px;
-}
-
-#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content dl,
-#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content ol,
-#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content ul {
-  padding-left: 20px;
-}
-
-#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content p:first-child,
-#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content dl:first-child,
-#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content ol:first-child,
-#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content ul:first-child {
+#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content *:first-child {
   margin-top: 0;
 }
 
-#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content p:last-child,
-#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content dl:last-child,
-#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content ol:last-child,
-#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content ul:last-child {
+#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content * {
   margin-bottom: 0;
 }
 
@@ -77,6 +60,12 @@
 #dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content dl,
 #dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content ul {
   list-style: '\2714\0020';
+}
+
+#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content dl,
+#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content ol,
+#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content ul {
+  padding-left: 20px;
 }
 
 #dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content li {
