@@ -69,7 +69,7 @@
   right: 5% !important;
 }
 
-@media screen and ( min-width: 710px ) {
+@media screen and ( max-width: 710px ) {
   #dev2020_custom_template___product_gallery_wrapper .tds-gallery-horizontal {
     max-height: 400px !important;
   }}
