@@ -131,7 +131,7 @@ img {
 }
 
 #dev2020_custom_template .dev2020_custom_template__navigation-links a:hover {
-  color: #9CC948;
+  color: #9CCA49;
 }
 
 #dev2020_custom_template .dev2020_custom_template__navigation-links a::after {
@@ -139,7 +139,7 @@ img {
   width: 6px;
   height: 6px;
   border-radius: 100%;
-  background-color: #9CC948;
+  background-color: #9CCA49;
   position: absolute;
   top: 7px;
   right: -18px;
@@ -149,7 +149,7 @@ img {
   content: '';
   width: 0;
   height: 2px;
-  background-color: #9CC948;
+  background-color: #9CCA49;
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -328,7 +328,7 @@ img {
 
 #dev2020_custom_template .dev2020_custom_template__panel-links ul li {
   display: block;
-  border-bottom: 1px solid #9CC948;
+  border-bottom: 1px solid #9CCA49;
 }
 
 #dev2020_custom_template .dev2020_custom_template__panel-links ul li a {
@@ -355,7 +355,7 @@ img {
   background-position: top left;
   background-repeat: no-repeat;
   background-size: cover;
-  border-color: #9CC948;
+  border-color: #9CCA49;
   color: white;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
@@ -366,7 +366,7 @@ img {
 
 /* Store Newsletter Start */
 #dev2020_custom_template .dev2020_custom_template__store-newsletter {
-  background-color: #9CC948;
+  background-color: #9CCA49;
   padding: 30px 15px 20px;
 }
 
@@ -425,7 +425,7 @@ img {
 }
 
 #dev2020_custom_template .dev2020_custom_template__expert-support a:hover {
-  border-color: #9CC948;
+  border-color: #9CCA49;
 }
 
 #dev2020_custom_template .dev2020_custom_template__expert-support h5 {
@@ -460,7 +460,6 @@ img {
 
 #dev2020_custom_template .dev2020_custom_template__template-content {
   border: 1px solid lightgrey;
-  min-height: 240px;
   padding: 20px 15px;
   position: relative;
 }
@@ -497,12 +496,13 @@ img {
 }
 
 #dev2020_custom_template .dev2020_custom_template__template-content-why-buy {
-  padding-right: 115px;
+  margin-bottom: 0 !important;
+  padding-right: 100px;
 }
 
 #dev2020_custom_template .dev2020_custom_template__template-content-icon {
   display: block;
-  width: 100px;
+  width: 87px;
   position: absolute;
   right: 15px;
   top: 20px;
@@ -576,6 +576,7 @@ img {
   }
   #dev2020_custom_template .dev2020_custom_template__template-content-icon {
     width: 100%;
+    margin-top: 20px;
     position: static;
   }
 }
