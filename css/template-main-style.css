@@ -271,6 +271,27 @@ img {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
+#dev2020_custom_template .dev2020_custom_template__template_menu_content_links a.sub_cat {
+  font-size: 11px;
+  padding-left: 30px;
+  position: relative;
+}
+
+#dev2020_custom_template .dev2020_custom_template__template_menu_content_links a.sub_cat::before {
+  content: '';
+  width: 7px;
+  height: 2px;
+  background-color: #616161;
+  position: absolute;
+  top: 14px;
+  left: 15px;
+  transition: all 0.3s ease-out;
+}
+
+#dev2020_custom_template .dev2020_custom_template__template_menu_content_links a.sub_cat:hover::before {
+  background-color: white;
+}
+
 
 @media screen and ( max-width:1200px) {
   #dev2020_custom_template .dev2020_custom_template__template-header-inner {
@@ -393,6 +414,27 @@ img {
   border-color: #9CCA49;
   color: white;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+#dev2020_custom_template .dev2020_custom_template__panel-links ul li a.sub_cat {
+  font-size: 11px;
+  padding-left: 30px;
+  position: relative;
+}
+
+#dev2020_custom_template .dev2020_custom_template__panel-links ul li a.sub_cat::before {
+  content: '';
+  width: 7px;
+  height: 2px;
+  background-color: #616161;
+  position: absolute;
+  top: 14px;
+  left: 15px;
+  transition: all 0.3s ease-out;
+}
+
+#dev2020_custom_template .dev2020_custom_template__panel-links ul li a.sub_cat:hover::before {
+  background-color: white;
 }
 
 #dev2020_custom_template #dev2020_custom_template__product-portfolio-left {
