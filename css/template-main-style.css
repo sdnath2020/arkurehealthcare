@@ -1,25 +1,6 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 
-/* ::-webkit-scrollbar {
-  width: 10px;
-} */
-
-/* Track */
-/* ::-webkit-scrollbar-track {
-  background: #f1f1f1;
-} */
-
-/* Handle */
-/* ::-webkit-scrollbar-thumb {
-  background: #cccccc;
-} */
-
-/* Handle on hover */
-/* ::-webkit-scrollbar-thumb:hover {
-  background: #555555;
-} */
-
 img {
   max-width: 100% !important;
 }
@@ -267,12 +248,14 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   border-color: #9CCA49;
-  color: white;
+  color: white !important;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 #dev2020_custom_template .dev2020_custom_template__template_menu_content_links a.sub_cat {
-  font-size: 11px;
+  color: #757575;
+  font-size: 10px;
+  font-style: italic;
   padding-left: 30px;
   position: relative;
 }
@@ -412,12 +395,14 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   border-color: #9CCA49;
-  color: white;
+  color: white !important;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 #dev2020_custom_template .dev2020_custom_template__panel-links ul li a.sub_cat {
-  font-size: 11px;
+  color: #757575;
+  font-size: 10px;
+  font-style: italic;
   padding-left: 30px;
   position: relative;
 }
